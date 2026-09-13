@@ -1,92 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="img.css">
-    <link rel="stylesheet" href="background.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="img.css">
+  <link rel="stylesheet" href="background.css">
 </head>
-<body> 
-    <!-- Menu-->
-    <div id="menu-container"></div>
 
-    <!--background -->
-    <div class="animated-bg">
-        <div class="blob blob1"></div>
-        <div class="blob blob2"></div>
-        <div class="blob blob3"></div>
+<body>
+  <!-- Menu-->
+  <div id="menu-container"></div>
 
-        <div class="container"></div>
+  <!--background -->
+  <div class="px-4 py-5 my-5 text-center"> <img class="d-block mx-auto mb-4" src="หมูเด้ง.jpg" alt="" width="72"
+      height="57">
+    <h1 class="display-5 fw-bold text-body-emphasis">Centered hero</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most
+        popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive
+        prebuilt components, and powerful JavaScript plugins.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"> <button type="button"
+          class="btn btn-primary btn-lg px-4 gap-3">Primary button</button> <button type="button"
+          class="btn btn-outline-secondary btn-lg px-4">Secondary</button> </div>
+    </div>
+  </div>
+  <div class="animated-bg">
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+    <div class="blob blob3"></div>
+
+    <div class="container"></div>
 
     <div class="container">
-        <!-- Content here -->
-        <div class="text-center mb-4">
-        <h3 class="alert alert-danger mt-4">หน้าหลัก</h3>        
-        <div class="alert alert-primary text-end" role="alert">
-            wanchana pangkamhack
-        </div>
-        <div class="text-center mb-6">
-            <a class="btn btn-info" href="http://www.google.com/">Google</a>
-        </div>             
-      </div>
-      <br>
+      <!-- Content here -->
+      <div class="text-center mb-4">
+        <div class="row g-4">
 
-        <!-- แบ่งคอลัมด้วย Grid system -->
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-sm-4 bg-primary-subtle p-3 rounded"> 
-                    <img src="ปลาทองimages.jpg" class="img-fluid same-img shadow-sm" alt="ปลาทอง1">
-                    <p class="mt-2 fw-bold">ปลาทอง 1</p>
-                </div>
-                <div class="col-sm-4 bg-success-subtle p-3 rounded">
-                    <img src="ปลาทองv1images.jpg" class="img-fluid same-img shadow-sm" alt="ปลาทอง2">
-                    <p class="mt-2 fw-bold">ปลาทอง 2</p>
-                </div>
-              <div class="col-sm-4   bg-info-subtle">
-                <h4 class="mt-4">Register</h3>
-                <form class="text-start">
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Firstname</label>
-                        <input type="firstname" class="form-control" id="firstname" required placeholder="input firstname">
-                      </div>
-                      <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Lastname</label>
-                        <input type="lastname" class="form-control" id="lastname" required placeholder="input lastname">
-                      </div>
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Telephone</label>
-                      <input type="number" class="form-control" id="phone" required placeholder="XXX-XXX-XXXX">
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label">province</label>
-                        <select class="form-select" id="province">
-                            <option selected>เลือกจังหวัด</option>
-                            <option value="1">ชลบุรี</option>
-                            <option value="2">ระยอง</option>
-                            <option value="3">เชียงใหม่</option>
-                          </select>
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="e-mail" required placeholder="@gmail.com">
-                      </div>
-                    <div class="mb-3">
-                      <label for="exampleInputPassword1" class="form-label">Password</label>
-                      <input type="password" class="form-control" id="pw" required placeholder="123456789">
-                    </div>
-                    <div class="text-center">
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                        <button type="reset" class="btn btn-info">Cancel</button>
-                    </div>
-                  </form>
+          <!-- สินค้า 1 -->
+          <div class="col-sm-6 col-md-3">
+            <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+
+              <img src="น้องเอวา.jpg" alt="Image 1" class="img-fluid same-img">
+
+              <div class="card-body text-center">
+                <h4 class="card-title mt-2">สินค้า 1</h4>
+                <p class="text-muted">ราคา 9,000 บาท</p>
+
+                <a href="#" class="btn btn-outline-dark rounded-pill px-4"> <span class="bi bi-shop"></span>
+                  Add+
+                </a>
               </div>
+
             </div>
           </div>
 
+          <!-- สินค้า 2 -->
+          <div class="col-sm-6 col-md-3">
+            <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+
+              <img src="หมูเด้ง.jpg" alt="Image 2" class="img-fluid same-img">
+
+              <div class="card-body text-center">
+                <h4 class="card-title mt-2">สินค้า 2</h4>
+                <p class="text-muted">ราคา 5,000 บาท</p>
+
+                <a href="#" class="btn btn-outline-dark rounded-pill px-4"> <span class="bi bi-shop"></span>
+                  Add+
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- สินค้า 3 -->
+          <div class="col-sm-6 col-md-3">
+            <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+
+              <img src="หมูเด้ง2.jpg" alt="Image 3" class="img-fluid same-img">
+
+              <div class="card-body text-center">
+                <h4 class="card-title mt-2">สินค้า 3</h4>
+                <p class="text-muted">ราคา 1000 บาท</p>
+
+                <a href="#" class="btn btn-outline-dark rounded-pill px-4"> <span class="bi bi-shop"></span>
+                  Add+
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- สินค้า 4 -->
+          <div class="col-sm-6 col-md-3">
+            <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden">
+
+              <img src="หมูเด้ง3.jpg" alt="Image 4" class="img-fluid same-img">
+
+              <div class="card-body text-center">
+                <h4 class="card-title mt-2">สินค้า 4</h4>
+                <p class="text-muted">ราคา 2,000 บาท</p>
+
+                <a href="#" class="btn btn-outline-dark rounded-pill px-4"> <span class="bi bi-shop"></span>
+                  Add+
+                </a>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+<div class="container px-4 py-5" id="featured-3"> <h2 class="pb-2 border-bottom">Columns with icons</h2> <div class="row g-4 py-5 row-cols-1 row-cols-lg-3"> <div class="feature col"> <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"> <svg class="bi" width="1em" height="1em" aria-hidden="true"><use xlink:href="#collection"></use></svg> </div> <h3 class="fs-2 text-body-emphasis">Featured title</h3> <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p> <a href="#" class="icon-link">
+Call to action
+<svg class="bi" aria-hidden="true"><use xlink:href="#chevron-right"></use></svg> </a> </div> <div class="feature col"> <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"> <svg class="bi" width="1em" height="1em" aria-hidden="true"><use xlink:href="#people-circle"></use></svg> </div> <h3 class="fs-2 text-body-emphasis">Featured title</h3> <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p> <a href="#" class="icon-link">
+Call to action
+<svg class="bi" aria-hidden="true"><use xlink:href="#chevron-right"></use></svg> </a> </div> <div class="feature col"> <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"> <svg class="bi" width="1em" height="1em" aria-hidden="true"><use xlink:href="#toggles2"></use></svg> </div> <h3 class="fs-2 text-body-emphasis">Featured title</h3> <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p> <a href="#" class="icon-link">
+Call to action
+<svg class="bi" aria-hidden="true"><use xlink:href="#chevron-right"></use></svg> </a> </div> </div> 
+</div>
+      <!-- แบ่งคอลัมด้วย Grid system -->
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-sm-4 bg-primary-subtle p-3 rounded">
+            <img src="ปลาทองimages.jpg" class="img-fluid same-img shadow-sm" alt="ปลาทอง1">
+            <p class="mt-2 fw-bold">ปลาทอง 1</p>
+          </div>
+          <div class="col-sm-4 bg-success-subtle p-3 rounded">
+            <img src="ปลาทองv1images.jpg" class="img-fluid same-img shadow-sm" alt="ปลาทอง2">
+            <p class="mt-2 fw-bold">ปลาทอง 2</p>
+          </div>
+          <div class="col-sm-4   bg-info-subtle">
+            <h4 class="mt-4">Register</h3>
+              <form class="text-start">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Firstname</label>
+                  <input type="firstname" class="form-control" id="firstname" required placeholder="input firstname">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Lastname</label>
+                  <input type="lastname" class="form-control" id="lastname" required placeholder="input lastname">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Telephone</label>
+                  <input type="number" class="form-control" id="phone" required placeholder="XXX-XXX-XXXX">
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">province</label>
+                  <select class="form-select" id="province">
+                    <option selected>เลือกจังหวัด</option>
+                    <option value="1">ชลบุรี</option>
+                    <option value="2">ระยอง</option>
+                    <option value="3">เชียงใหม่</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="e-mail" required placeholder="@gmail.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="pw" required placeholder="123456789">
+                </div>
+                <div class="text-center">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="reset" class="btn btn-info">Cancel</button>
+                </div>
+              </form>
+          </div>
+        </div>
+      </div>
+
     </div>
 </body>
+
 </html>
 
 <script src="js/bootstrap.bundle.min.js"></script>
