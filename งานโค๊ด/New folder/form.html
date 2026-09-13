@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โครงสร้าง HTML </title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+<h2>แสดงข้อมูลนักศึกษา</h2>
+
+<table id="studentTable">
+<tr>
+    <th>รหัสนักศึกษา</th>
+    <th>ชื่อ-นามสกุล</th>
+    <th>คณะ</th>
+    <th>เบอร์โทรศัพท์</th>
+    <th>อีเมล</th>
+</tr>
+<tr>
+    <td>69707614</td>
+    <td>วันชนะ เเพงคำฮัก</td>
+    <td>เทคโนโลยีสารสนเทศ</td>
+    <td>0613454132</td>
+    <td>wanchanapangkamhack@gmail.com</td>
+</tr>
+<tr>
+    <td>67210002</td>
+    <td>ณัฐชา ประเสริฐ</td>
+    <td>บัญชี</td>
+    <td>0387436340</td>
+    <td>NatchaPrasert.gmail.com</td>
+</tr>
+<tr>
+    <td>67688012</td>
+    <td>กิตติภัทร วงศ์สวัสดิ์</td>
+    <td>เทคโนโลยีสารสนเทศ</td>
+    <td>0653218659</td>
+    <td>KittiphatWongsawat@gmail.com</td>
+</tr>
+<tr>
+    <td>67367567</td>
+    <td>ธนภัทร สุขสบาย</td>
+    <td>นิติศาสตร์</td>
+    <td>0387159060</td>
+    <td>ThanaphatSuksabai@gmail.com</td>
+</tr>
+</table>
+
+
+<div class="form-container">
+    <h2>เพิ่มข้อมูลนักศึกษา</h2>
+<form id="studentForm">
+    <div class="input-group">
+    <label>รหัสนักศึกษา:</label>
+    <input type="text" id="id_std" name="id_std">
+</div>
+<div class="input-group">
+    <label>ชื่อ-นามสกุล:</label>
+    <input type="text" id="fullname" name="fullname">
+</div>
+<div class="input-group">
+    <label>คณะ:</label>
+    <select id="department" name="department">
+        <option value="เทคโนโลยีสารสนเทศ">เทคโนโลยีสารสนเทศ</option>
+        <option value="บัญชี">บัญชี</option>
+        <option value="นิติศาสตร์">นิติศาสตร์</option>
+        <option value="การตลาด">การตลาด</option>
+        <option value="โลจิสติกส์">โลจิสติกส์</option>
+    </select>
+</div>
+<div class="input-group">
+    <label>เบอร์โทรศัพท์:</label>
+    <input type="number" id="telephone" name="telephone">
+</div>
+<div class="input-group">
+    <label>อีเมล:</label>
+    <input type="email" id="email" name="email">
+</div>
+    <input type="button" value="Submit" onclick="addStudent()">
+</form>
+</div>
+</div>
+</body>
+</html>
+<script src="form.js"></script>

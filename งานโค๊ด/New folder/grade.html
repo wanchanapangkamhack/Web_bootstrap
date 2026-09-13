@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โปรแกรมตัดเกรด</title>
+    <link rel="stylesheet" href="grade.css"> <!-- ลิงก์ไปยังไฟล์ CSS -->
+</head>
+<body>
+    <h1>โปรแกรมตัดเกรด</h1>
+    <form id="gradeForm">
+        <label for="studentName">ชื่อนักศึกษา:</label>
+        <input type="text" id="studentName" name="studentName" required><br>
+
+        <label for="score">คะแนนที่ได้:</label>
+        <input type="number" id="score" name="score" min="0" max="100" required><br>
+
+        <input type="button" value="คำนวณเกรด" onclick="calculateGrade()">
+        <input type="button" value="ยกเลิก" onclick="resetForm()">
+    </form>
+
+    <h2>ผลลัพธ์</h2>
+    <p id="result"></p>
+
+    <script src="grade.js"></script> <!-- ลิงก์ไปยังไฟล์ JavaScript -->
+</body>
+</html>

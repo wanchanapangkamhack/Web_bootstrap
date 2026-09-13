@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #74ebd5 0%, #9face6 50%, #74ebd5 100%);
+    background-size: 200% 200%;
+    animation: gradientMove 12s ease infinite;
+    box-sizing: border-box;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ @keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+label {
+    margin-right: 10px;
+    color: #19cec8;
+    font-weight: 500;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+
+
+input[type="button"] {
+    background-color: #1814cf;
+    color: rgb(242, 246, 245);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #1cb2d3;
+}
+.container {
+    background-color: #f6f8f8;
+    padding: 2em;
+    width: 80%;
+    text-align: center;
+    margin: 20px auto ;
+}
+.form-container {
+    background-color: #10d3e8;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    text-align: center;
+    margin: 50px auto ;
+}
+.input-group {
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 1em;
+    color: #555;
+}
+
+.input-group input,.input-group select {
+    width: 100%;
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
